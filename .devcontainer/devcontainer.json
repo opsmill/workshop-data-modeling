@@ -1,49 +1,49 @@
 {
-    "name": "ac2-workshop-data-modeling",
-    "build": {
-      "dockerfile": "./../Dockerfile",
-      "context": ".."
+  "name": "ac3-workshop-data-modeling",
+  "build": {
+    "dockerfile": "./../Dockerfile",
+    "context": ".."
+  },
+  "customizations": {
+    "settings": {
+      "python.pythonPath": "/usr/bin/python3",
+      "terminal.integrated.shell.linux": "/bin/bash",
+      "python.venvPath": "/workspace/.venv",
+      "python.linting.enabled": true
     },
-    "customizations": {
-      "settings": {
-        "python.pythonPath": "/usr/bin/python3",
-        "terminal.integrated.shell.linux": "/bin/bash",
-        "python.venvPath": "/workspace/.venv",
-        "python.linting.enabled": true
-      },
-      "vscode": {
-        "extensions": [
-          "qwtel.sqlite-viewer",
-          "pomdtr.excalidraw-editor",
-          "wholroyd.jinja",
-          "ms-python.vscode-pylance",
-          "shardulm94.trailing-spaces",
-          "nickmillerdev.pytest-fixtures",
-          "yzhang.markdown-all-in-one",
-          "GraphQL.vscode-graphql-syntax",
-          "redhat.vscode-yaml"
-        ]
-      }
+    "vscode": {
+      "extensions": [
+        "qwtel.sqlite-viewer",
+        "pomdtr.excalidraw-editor",
+        "wholroyd.jinja",
+        "ms-python.vscode-pylance",
+        "shardulm94.trailing-spaces",
+        "nickmillerdev.pytest-fixtures",
+        "yzhang.markdown-all-in-one",
+        "GraphQL.vscode-graphql-syntax",
+        "redhat.vscode-yaml"
+      ]
+    }
+  },
+  "remoteEnv": {
+    "INFRAHUB_API_TOKEN": "06438eb2-8019-4776-878c-0941b1f1d1ec",
+  },
+  "forwardPorts": [
+    8000,
+    8001,
+    7474,
+    7687
+  ],
+  "runArgs": [
+    "--volume=/var/lib/docker",
+    "--privileged"
+  ],
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:latest": {
+      "version": "latest"
     },
-    "remoteEnv": {
-      "INFRAHUB_API_TOKEN": "06438eb2-8019-4776-878c-0941b1f1d1ec",
-    },
-    "forwardPorts": [
-      8000,
-      8001,
-      7474,
-      7687
-    ],
-    "runArgs": [
-      "--volume=/var/lib/docker",
-      "--privileged"
-    ],
-    "features": {
-      "ghcr.io/devcontainers/features/docker-in-docker:latest": {
-        "version": "latest"
-      },
-      "ghcr.io/devcontainers/features/github-cli:latest": {
-        "version": "latest"
-      }
+    "ghcr.io/devcontainers/features/github-cli:latest": {
+      "version": "latest"
     }
   }
+}
