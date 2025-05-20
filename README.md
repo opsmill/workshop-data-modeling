@@ -1,6 +1,6 @@
-# Autocon3 - Data Modeling Workshop - Labs guide
+# Data Modeling Workshop - Labs guide
 
-As part of the Data Modeling Workshop held live a Autocon3, 2 labs have been prepared for the student.
+As part of the Data Modeling Workshop held live at Autocon, 2 labs have been prepared for the student.
 
 - **Lab 1** - Explore various Schema languages (JSON Schema, GraphQL & Pydantic) and Relational / Graph databases
 - **Lab 2** - Network infrastructure modeling with Infrahub
