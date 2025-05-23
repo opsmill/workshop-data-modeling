@@ -4,9 +4,9 @@ kind: Object
 spec:
   kind: IpamPrefix
   data:
-    - namespace: ["default"]
+    - ip_namespace: ["default"]
       prefix: "10.10.0.0/24"
-    - namespace: ["default"]
+    - ip_namespace: ["default"]
       prefix: "10.20.0.0/24"
-    - namespace: ["default"]
+    - ip_namespace: ["default"]
       prefix: "192.168.0.0/24"
