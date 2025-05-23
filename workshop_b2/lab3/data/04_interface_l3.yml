@@ -7,40 +7,30 @@ spec:
     - device: [den1-router1]
       name: Ethernet1
       status: active
-      # role: peer
     - device: [den1-router1]
       name: Ethernet2
       status: active
-      # role: uplink
     - device: [den1-router1]
       name: Ethernet3
       status: active
-      # role: uplink
     - device: [den1-router1]
       name: Loopback0
       status: active
-      # role: loopback
     - device: [den1-router2]
       name: Ethernet1
       status: active
-      # role: peer
     - device: [den1-router2]
       name: Ethernet2
       status: active
-      # role: uplink
     - device: [den1-router2]
       name: Ethernet3
       status: active
-      # role: uplink
     - device: [den1-router2]
       name: Loopback0
       status: active
-      # role: loopback
     - device: [par1-switch1]
       name: Loopback0
       status: active
-      # role: loopback
     - device: [par1-switch2]
       name: Loopback0
       status: active
-      # role: loopback
