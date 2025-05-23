@@ -4,15 +4,11 @@ kind: Object
 spec:
   kind: IpamIPAddress
   data:
-    - ip_namespace: ["default"]
-      address: "10.10.0.1/24"
+    - address: "10.10.0.1/24"
       interface: [den1-router1, Ethernet1]
-    - ip_namespace: ["default"]
-      address: "10.10.0.2/24"
+    - address: "10.10.0.2/24"
       interface: [den1-router2, Ethernet1]
-    - ip_namespace: ["default"]
-      address: "192.168.0.1/24"
+    - address: "192.168.0.1/24"
       interface: [den1-router1, Loopback0]
-    - ip_namespace: ["default"]
-      address: "192.168.0.2/24"
+    - address: "192.168.0.2/24"
       interface: [den1-router2, Loopback0]
