@@ -17,7 +17,7 @@ async def lifespan(app: FastAPI):
 
 
 app = FastAPI(
-    title="Autocon3 Workshopo B2 - Lab1",
+    title="Autocon3 Workshop B2 - Lab1",
     docs_url="/docs",
     lifespan=lifespan,
 )
