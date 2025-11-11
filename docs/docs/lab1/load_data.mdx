@@ -11,7 +11,7 @@ import ReferenceLink from "../../src/components/Card";
 Before taking a closer look at the different schemas, we're gonna load some data into the application to make it a bit more interesting.
 
 :::info
-The application must be running on port 8000 while running the next command so it's important to keep the application running on one terminal and to start a new one to execute the command below
+The application must be running on port 8101 while running the next command so it's important to keep the application running on one terminal and to start a new one to execute the command below
 :::
 :::info
 You may need to reissue the poetry shell command to reenter the virtual environment for this lab.
@@ -23,11 +23,11 @@ invoke lab1-load
 
 ## Query the data via the REST API
 
-<ReferenceLink title="List all devices in the REST API" url="http://localhost:8000/api/devices/" openInNewTab />
+<ReferenceLink title="List all devices in the REST API" url="http://localhost:8101/api/devices/" openInNewTab />
 
 ## Query the data via the GraphQL API
 
-<ReferenceLink title="GraphQL Sandbox" url="http://localhost:8000/graphql" openInNewTab />
+<ReferenceLink title="GraphQL Sandbox" url="http://localhost:8101/graphql" openInNewTab />
 
 ```graphql
 query {
