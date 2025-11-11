@@ -70,7 +70,7 @@ def create_lab1_devices(url: str, site_id: int) -> httpx.Response:
 @task
 def lab1_start(context: Context, reload: bool = True) -> None:
     """Start Lab1."""
-    exec_cmd = "fastapi run workshop_b2/lab1/main.py"
+    exec_cmd = "fastapi run workshop_b2/lab1/main.py --port 8101"
     if reload:
         exec_cmd += " --reload"
     context.run(exec_cmd)
@@ -84,7 +84,7 @@ def lab1_destroy(context: Context, reload: bool = False) -> None:
 
 @task
 def lab1_load(
-    context: Context, url: str = "http://localhost:8000", site_name: str = "site-1"
+    context: Context, url: str = "http://localhost:8101", site_name: str = "site-1"
 ) -> None:
     """Load devices into Lab1."""
     with httpx.Client() as client:
@@ -140,7 +140,7 @@ def create_lab2_devices(
 @task
 def lab2_start(context: Context, reload: bool = True) -> None:
     """Start Lab2."""
-    exec_cmd = "fastapi run workshop_b2/lab2/main.py --port 8001"
+    exec_cmd = "fastapi run workshop_b2/lab2/main.py --port 8102"
     if reload:
         exec_cmd += " --reload"
     context.run("docker compose up -d")
@@ -156,7 +156,7 @@ def lab2_destroy(context: Context, reload: bool = False) -> None:
 @task
 def lab2_load(
     context: Context,
-    url: str = "http://localhost:8001",
+    url: str = "http://localhost:8102",
     site_name: str = "site-1",
     tags: bool = False,
 ) -> None:
