@@ -10,4 +10,4 @@ You can find the corresponding Instruqt tracks here:
 - <https://play.instruqt.com/manage/opsmill/tracks/workshop-b2-lab1>
 - <https://play.instruqt.com/manage/opsmill/tracks/workshop-b2-lab3>
 
-The **legacy documentation** is available at [autocon2-workshop-data-modeling.pages.dev](https://autocon2-workshop-data-modeling.pages.dev)
+The **legacy documentation** is available at [autocon4-workshop-data-modeling.pages.dev](https://autocon4-workshop-data-modeling.pages.dev)
