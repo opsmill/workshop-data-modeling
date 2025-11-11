@@ -1,0 +1,9 @@
+---
+apiVersion: infrahub.app/v1
+kind: Object
+spec:
+  kind: IpamPrefix
+  data:
+    - prefix: "10.10.0.0/24"
+    - prefix: "10.20.0.0/24"
+    - prefix: "192.168.0.0/24"

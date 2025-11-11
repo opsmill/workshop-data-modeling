@@ -1,14 +1,14 @@
-from contextlib import asynccontextmanager
 import time
+from contextlib import asynccontextmanager
+
 from fastapi import FastAPI
 from fastapi.responses import PlainTextResponse
+from graphql import print_schema
 from neo4j.exceptions import ServiceUnavailable
 
 from workshop_b2.lab2.database import create_initial_constraints, get_db
-from workshop_b2.lab2.rest.router import router as rest_router
 from workshop_b2.lab2.graphql.router import init_app
-
-from graphql import print_schema
+from workshop_b2.lab2.rest.router import router as rest_router
 
 
 @asynccontextmanager

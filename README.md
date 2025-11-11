@@ -1,9 +1,13 @@
-# Autocon4 - Data Modeling Workshop - Labs guide
+# Data Modeling Workshop - Labs guide
 
-As part of the Data Modeling Workshop held live a Autocon4, 3 labs have been prepared for the student.
+As part of the Data Modeling Workshop held live at Autocon, 2 labs have been prepared for the student.
 
-- **Lab 1** - Explore various Schema languages (JSON Schema, GraphQL & Pydantic)
-- **Lab 2** - Explore Relational and Graph databases
-- **Lab 3** - Network infrastructure modeling with Infrahub
+- **Lab 1** - Explore various Schema languages (JSON Schema, GraphQL & Pydantic) and Relational / Graph databases
+- **Lab 2** - Network infrastructure modeling with Infrahub
 
-The documentation is available at [autocon4-workshop-data-modeling.pages.dev](https://autocon4-workshop-data-modeling.pages.dev)
+You can find the corresponding Instruqt tracks here:
+
+- <https://play.instruqt.com/manage/opsmill/tracks/workshop-b2-lab1>
+- <https://play.instruqt.com/manage/opsmill/tracks/workshop-b2-lab3>
+
+The **legacy documentation** is available at [autocon4-workshop-data-modeling.pages.dev](https://autocon4-workshop-data-modeling.pages.dev)
