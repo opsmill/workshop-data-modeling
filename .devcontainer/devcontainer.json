@@ -1,5 +1,5 @@
 {
-    "name": "ac2-workshop-data-modeling",
+    "name": "workshop-data-modeling",
     "build": {
       "dockerfile": "./../Dockerfile",
       "context": ".."

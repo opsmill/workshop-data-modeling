@@ -3,18 +3,18 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
-  title: 'AC2 WS:B2 - Data Modeling & Network Source of Truth',
+  title: 'AC4 WS:C2 - Data Modeling & Network Source of Truth',
   tagline: 'Workshop about data modeling, schema languages, and Source of Truth',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://autocon2-workshop-data-modeling.pages.dev/',
+  url: 'https://autocon4-workshop-data-modeling.pages.dev/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
 
   organizationName: 'opsmill',
-  projectName: 'autocon2-workshop-data-modeling',
+  projectName: 'autocon4-workshop-data-modeling',
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -34,7 +34,7 @@ const config: Config = {
         docs: {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/opsmill/ac2-workshop-data-modeling/tree/main/docs",
+          editUrl: "https://github.com/opsmill/workshop-data-modeling/tree/main/docs",
           routeBasePath: "/",
           sidebarCollapsed: true,
           sidebarPath: "./sidebars.ts",
@@ -63,14 +63,14 @@ const config: Config = {
           type: "docSidebar",
           sidebarId: "docsSidebar",
           position: "left",
-          label: "AC2 WS:B2 - Data Modeling & Network Source of Truth",
+          label: "AC4 WS:C2 - Data Modeling & Network Source of Truth",
         },
         // {
         //   type: "search",
         //   position: "right",
         // },
         {
-          href: "https://github.com/opsmill/ac2-workshop-data-modeling",
+          href: "https://github.com/opsmill/workshop-data-modeling",
           position: "right",
           className: "header-github-link",
           "aria-label": "GitHub repository",
