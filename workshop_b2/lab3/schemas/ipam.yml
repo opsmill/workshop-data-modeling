@@ -10,8 +10,7 @@ nodes:
     label: IP Address
     icon: mdi:ip
     include_in_menu: false
-    display_labels:
-      - address__value
+    display_label: "{{ address__value }}"
     inherit_from:
       - BuiltinIPAddress
     human_friendly_id:

@@ -19,8 +19,7 @@ In the file `workshop_b2/lab3/schemas/dcim.yml` uncomment the section highlighte
     label: Interface L3
     icon: mdi:ethernet
     menu_placement: DcimInterface
-    display_labels:
-      - name__value
+    display_label: "{{ name__value }}"
     order_by:
       - name__value
     inherit_from:

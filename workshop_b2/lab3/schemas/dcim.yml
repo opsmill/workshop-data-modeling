@@ -12,8 +12,7 @@ generics:
       - name__value
     order_by:
       - name__value
-    display_labels:
-      - name__value
+    display_label: "{{ name__value }}"
     attributes:
       - name: name
         kind: Text
@@ -49,8 +48,7 @@ generics:
     icon: mdi:ethernet
     menu_placement: DcimGenericDevice
     include_in_menu: true
-    display_labels:
-      - name__value
+    display_label: "{{ name__value }}"
     order_by:
       - device__name__value
       - name__value
@@ -127,8 +125,7 @@ nodes:
     label: Interface L3
     icon: mdi:ethernet
     menu_placement: DcimInterface
-    display_labels:
-      - name__value
+    display_label: "{{ name__value }}"
     order_by:
       - name__value
     inherit_from:
